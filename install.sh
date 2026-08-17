@@ -58,7 +58,8 @@ detect_target() {
         Darwin) os="darwin" ;;
         *)
             die "Courant does not ship a binary for $os yet.
-Install from source instead:  pip install courant"
+Supported today: Linux (x86_64, arm64) and macOS (arm64).
+Write to hello@courant.dev and say what you are running."
             ;;
     esac
 
@@ -67,7 +68,8 @@ Install from source instead:  pip install courant"
         arm64 | aarch64) arch="arm64" ;;
         *)
             die "Courant does not ship a binary for $arch yet.
-Install from source instead:  pip install courant"
+Supported today: Linux (x86_64, arm64) and macOS (arm64).
+Write to hello@courant.dev and say what you are running."
             ;;
     esac
 
